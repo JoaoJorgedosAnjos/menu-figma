@@ -1,0 +1,41 @@
+@media(max-width: 732px) {
+    .header {
+        flex-direction: column;
+        
+    }
+
+    .logo {
+        margin-top: 47px;
+        
+        
+
+    }
+
+    .logo h1{
+        font-size: 40px;
+        
+      
+
+
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+
+    .menu li {
+        padding: 25px 0;
+        font-size: 47px;
+
+    }
+    .menu li a{
+        padding: 18px 40px;
+    }
+
+    .menu li a.cadastre {
+        font-size: 18px;
+        
+    }
+}
