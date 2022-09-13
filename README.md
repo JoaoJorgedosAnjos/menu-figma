@@ -1,7 +1,7 @@
 # Exercício menu com flexbox 📃
 Exercício de HTML + CSS para criação de um menu no Figma. Com o proposito de construir um menu responsivo utilizando flex box.
 
-<img src="./gif.gif" alt="imagem do projeto">
+<img src="./gif2.gif" alt="imagem do projeto">
  
 ## Tecnologias utlizadas
 - HTML
