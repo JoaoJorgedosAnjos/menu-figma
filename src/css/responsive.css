@@ -1,41 +1,29 @@
-@media(max-width: 732px) {
+@media(max-width:838px)  {
+   
     .header {
+        flex-direction: column;  
+
+    }
+    .header .logo {
+        margin-bottom: 100px;
+        
+    }
+
+    .menu{
         flex-direction: column;
-        
     }
-
-    .logo {
-        margin-top: 47px;
-        
-        
-
-    }
-
-    .logo h1{
+    .header .logo h2 {
         font-size: 40px;
-        
-      
-
-
+       font-weight: 800;
     }
-
-    .menu {
-        flex-direction: column;
-        margin-top: 50px;
-
+    .header .menu{
+        font-size: 40px;
+        gap: 40px;
+        font-weight: 400;
     }
-
-    .menu li {
-        padding: 25px 0;
-        font-size: 47px;
-
-    }
-    .menu li a{
-        padding: 18px 40px;
-    }
-
-    .menu li a.cadastre {
+    .header .menu .cadastre{
         font-size: 18px;
-        
+        font-weight: 300;
     }
+    
 }

@@ -1,49 +1,47 @@
-body {}
-
-.header {
+html{
+    font-family: 'Public Sans', sans-serif;
+}
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 45px;
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
-
 }
 
-.logo {
+.header .logo{
     display: flex;
+    justify-content: center;
     align-items: center;
-    
+    gap: 8px;
 }
-
-.logo h1 {
-    font-weight: 800;
+.header .logo h2{
     font-size: 20px;
-    margin-left: 5px;
-}
+    font-weight: 800;
+}    
+        
 
-.menu {
+.header .menu{
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-.menu li a {
-    padding: 10px 5px;
-    margin: 10px;
+.menu li a{
+    padding: 15px;
+    margin: 5px;
+           
 }
+
 .menu li a:hover{
     background-color: #5BC241;
     color: white;
 }
-
-.menu li a.cadastre {
+.menu .cadastre{
     background-color: #5BC241;
-    width: 127px;
-    height: 39px;
     border-radius: 10px;
+    width: 150px;
+    height: 40px;
     color: white;
-    margin: 15px;
-    padding: 10px 20px;
-
+    font-weight: 300;
 }
